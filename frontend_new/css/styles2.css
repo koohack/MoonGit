@@ -1,0 +1,148 @@
+body
+{
+    margin: 0;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+#navbar
+{
+    padding: 0 14px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.50);
+    height: 80px;
+}
+
+#logo
+{
+    float: left;
+    margin-left: 72px;
+    margin-top: 7px;
+}
+
+#menu
+{
+    list-style: none;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+}
+
+.profile
+{
+    margin-left: 72px;
+}
+
+#menu li
+{
+    float: left;
+}
+
+#menu li a
+{
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 29px;
+    margin-right: 45px;
+    line-height: 66px;
+    display: block;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#menu li a:hover
+{
+    background-color: #c5c5c5;
+}
+
+#searchbar
+{
+    height: 48px;
+    width: 580px;
+    border: 1px solid rgb(167, 167, 167);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36px;
+    border-radius: 7px;
+}
+
+input
+{
+    font-size: 22px;
+    width: 572px;
+    padding: 11px;
+    border: 0px;
+    outline: none;
+    float: left;
+    border-radius: 7px;
+}
+
+.repositories
+{
+    width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.repository
+{
+    padding: 15px;
+    background-color: white;
+    text-decoration: none;
+    width: 300px;
+    color: #58595B;
+    border-radius: 7px;
+    float: left;
+    margin-right: 45px;
+    margin-bottom: 36px;
+    margin-top: 58px;
+    border: 3px solid rgb(0, 0, 0);
+    display: block;
+  }
+
+.repositories .repository .name
+{
+    font-size: 27px;
+}
+
+.repositories .repository .update
+{
+    font-size: 18px;
+}
+
+.repositories .repository .creator
+{
+    font-size: 18px;
+}
+
+.repositories .repository .files
+{
+    font-size: 18px;
+}
+
+.bottom
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottombar
+{
+    background-color: white;
+    height: 50px;
+    width: 70%;
+    border-radius: 7px;
+    border: 3px dashed rgb(0, 0, 0);
+    float: left;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+}
+
+.bottombar .add
+{
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
