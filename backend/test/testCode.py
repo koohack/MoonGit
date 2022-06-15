@@ -15,7 +15,7 @@ db_name = "moongit_login"
 conn = pymysql.connect(host=db_host, user=admin_name, password=admin_pwd, db=db_name, charset="utf8")
 cursor = conn.cursor()
 
-sql = "select * from userList where id='user6'"
+sql = "select * from userList"
 
 temp = conn.cursor()
 temp.execute(sql)
