@@ -1,8 +1,7 @@
 async function login() {
     var id = document.querySelector('#id');
     var pw = document.querySelector('#pw');
-    console.log(id.value);
-    console.log(pw.value);
+
     if (id.value == "" || pw.value == "") {
         alert("아이디 혹은 비밀번호를 확인해주세요.");
     } else {
@@ -12,15 +11,22 @@ async function login() {
                 "Content-Type" : "application/json",
             },
             body : JSON.stringify({
-                key : 1,
-                key1 : 2,
+                userID : id.value,
+                userPW : pw.value,
             })
         }
-
-        await fetch("http://114.204.91.74:1398/")
-            .then((response) => console.log(response))
-            .then((data) => console.log(data))
+        await fetch("http://127.0.0.1:1398/login/", options)
+            .then(function (response){
+                let check = response.headers.get("check");
+                // Login success
+                if (check == "True"){
+                    response.text().then((html) => document.write(html));
+                } else{ // Login False
+                    id.value = "";
+                    pw.value = "";
+                    alert("로그인에 실패했습니다.\n아이디 혹은 비밀번호를 다시 확인해보세요.");
+                }
+            })
             .catch((error) => console.log(error));
     }
-
 }

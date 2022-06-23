@@ -24,6 +24,4 @@ print(len(result))
 for i in result:
     print(i)
 
-
-
 conn.close()
