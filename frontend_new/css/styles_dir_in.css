@@ -1,0 +1,170 @@
+body
+{
+    margin: 0;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+#navbar
+{
+    padding: 0 14px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.50);
+    height: 80px;
+}
+
+#logo
+{
+    float: left;
+    margin-left: 72px;
+    margin-top: 7px;
+}
+
+#menu
+{
+    list-style: none;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+}
+
+.profile
+{
+    margin-left: 72px;
+}
+
+#menu li
+{
+    float: left;
+}
+
+#menu li a
+{
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 29px;
+    margin-right: 45px;
+    line-height: 66px;
+    display: block;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#menu li a:hover
+{
+    background-color: #c5c5c5;
+}
+
+#searchbar
+{
+    height: 48px;
+    width: 580px;
+    border: 1px solid rgb(167, 167, 167);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36px;
+    border-radius: 7px;
+}
+
+#repoName
+{
+    margin-left: 350px;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+#repoName #Botton
+{
+    float: right;
+    margin-right: 350px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#repoName #Botton a
+{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-right: 40px;
+}
+
+#Files
+{
+    margin-top: 50px;
+
+}
+
+#Files .File
+{
+    background-color: white;
+    padding: 5px;
+    border: 2px solid black;
+    margin-left: 350px;
+    margin-top: 20px;
+    padding-left: 30px;
+    width: 600px;
+    float: left;
+}
+
+#Files .Update
+{
+
+    margin-top: 20px;
+    padding: 10px;
+    width: 800px;
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(184, 184, 184);
+}
+
+
+#Files .File a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#Collab
+{
+    margin-top: 500px;
+    margin-left: 500px;
+}
+
+#Collab #Collaborator
+{
+    background-color: white;
+    width: 400px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#Collab #Collaborator th
+{
+    padding: 7px;
+}
+
+#Collab #Collaborator td
+{
+    padding: 3px;
+}
+
+#Collab #Collaborator .Collab_botton
+{
+    border: 1px solid black;
+    
+}
+
+#Collab #Collaborator .Collab_botton a
+{
+    text-decoration: none;
+    color: black;
+}
