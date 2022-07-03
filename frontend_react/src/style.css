@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 110px;
+  padding: 30px 25px;
+  font-size: 20px;
+}
+
+.nav--menu {
+  margin: 0;
+  margin-right: auto;
+  color: #61DAFB
+}
+
+.nav--icon {
+  width: 85px;
+  margin-right: 180px;
+  margin-left: 10px;
+}
+
+.repo{
+  padding: 15px;
+  background-color: white;
+  width: 300px;
+  height: 220px;
+  color: #58595B;
+  border-radius: 7px;
+  float: left;
+  border: 3px solid rgb(0, 0, 0);
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-right: 270px;
+}
+
+.repo--name{
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.repo--files{
+  margin-bottom: 0;
+}
+
+.repo--add{
+  background-color: white;
+  width: 300px;
+  height: 220px;
+  color: black;
+  border-radius: 7px;
+  float: left;
+  border: 3px dashed rgb(0, 0, 0);
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-right: 270px;
+  text-align: center;
+  font-size: 50px;
+}
