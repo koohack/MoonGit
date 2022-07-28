@@ -2,7 +2,6 @@
 
 ## 1. Frontend
 
-    로그인 페이지 추가
-    Repository 첫 페이지 추가
+![image](https://user-images.githubusercontent.com/37602451/181518715-8292446d-df60-4940-99bb-6fce845ddad9.png)
 
 ## 2. Backend
